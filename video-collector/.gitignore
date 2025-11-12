@@ -7,3 +7,4 @@ env/
 *.pyd
 *.swp
 .DS_Store
+.vscode/
