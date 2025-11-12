@@ -71,7 +71,7 @@ Each .npy = 1662 float32 values
 face (468×3) + pose (33×4) + hands (2×21×3)
 Upper-body pose only (legs, head, torso removed)
 
-## Install Dependecies and Activate Environment
+## Install Dependencies and Activate Environment
 ```text
 conda env create -f environment.yml
 
