@@ -1,5 +1,5 @@
 # Uzbek Sign Language (UzSL) Data Collector  
-**Version:** 1.0  
+  
 **Python:** `3.9.23`  
 **Author:** Custom-built for isolated dynamic sign collection  
 **Purpose:** Record **videos** + **per-frame MediaPipe landmarks** in a structured, scalable way  
@@ -71,7 +71,12 @@ Each .npy = 1662 float32 values
 face (468×3) + pose (33×4) + hands (2×21×3)
 Upper-body pose only (legs, head, torso removed)
 
-# Python version 3.9.23
+# Install Dependecies and Activate Environment
+```text
+conda env create -f environment.yml
+
+conda activate bisp_islr_env
+```
 
 # Run video collector
 ```text
