@@ -9,6 +9,7 @@ from config import (
 )
 from storage import ensure_folders, path_videos, path_landmarks
 
+
 # ----------------------------------------------------------------------
 # MediaPipe init (once per process)
 # ----------------------------------------------------------------------
@@ -118,7 +119,7 @@ def record_one_repetition(cap, signer_id: str, sign: str, rep_idx: int):
         cv2.putText(frame, f"Start in {secs_left}", (400, 360),
                     cv2.FONT_HERSHEY_SIMPLEX, 3, (0,255,255), 6)
         cv2.putText(frame, f"Signer: {signer_id} | Sign: {sign} | Rep: {rep_idx+1}",
-                    (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,100,100), 2)
+                    (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
         cv2.imshow("Recorder", frame)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             raise KeyboardInterrupt("User abort during countdown")
@@ -141,7 +142,7 @@ def record_one_repetition(cap, signer_id: str, sign: str, rep_idx: int):
 
         # on-screen info
         cv2.putText(frame_vis, f"Rep {rep_idx+1} Frame {f_idx+1}/{FRAMES_PER_REP}",
-                    (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,100,100), 2)
+                    (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
         cv2.imshow("Recorder", frame_vis)
 
         # save .npy

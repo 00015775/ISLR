@@ -38,9 +38,20 @@ def select_sign(signer_id: str) -> str:
         recorded = recorded_signs(signer_id)
 
         print("=== SIGN WORD LIST ===")
-        for idx, s in enumerate(signs, 1):
-            color = "\033[92m" if s in recorded else "\033[97m"   # green / white
-            print(f"{idx:2d}. {color}{s}\033[0m")
+        COLS = 5
+        ROWS = (len(signs) + COLS - 1) // COLS
+        for row in range(ROWS):
+            line = []
+            for col in range(COLS):
+                idx = row + col * ROWS
+                if idx < len(signs):
+                    s = signs[idx]
+                    color = "\033[92m" if s in recorded else "\033[97m"
+                    line.append(f"{idx+1:3d}. {color}{s.ljust(18)}\033[0m")
+                else:
+                    line.append(" " * 22)
+            print("  ".join(line))
+            
         print("\n[a] Add new word")
         print("[b] Back to signer menu")
         print("[q] Quit\n")

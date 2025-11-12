@@ -1,9 +1,11 @@
+
 # main.py
 import cv2
 from config import VIDEO_DEVICE, FRAME_WIDTH, FRAME_HEIGHT, FPS
 from ui import select_signer, select_sign, after_recording_menu
 from recorder import record_one_repetition
 from storage import count_repetitions
+
 
 def main():
     # ---------- CAMERA ----------
@@ -42,7 +44,7 @@ def main():
                 cv2.putText(frame, "Press 's' to start", (300, 360),
                             cv2.FONT_HERSHEY_SIMPLEX, 2, (0,255,0), 5)
                 cv2.putText(frame, f"Signer: {signer_id} | Sign: {chosen_sign} | Next rep: {rep_idx+1}",
-                            (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,200,200), 2)
+                            (30, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
                 cv2.imshow("Recorder – press s", frame)
                 k = cv2.waitKey(10) & 0xFF
                 if k == ord('s'):
