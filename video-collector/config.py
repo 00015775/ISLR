@@ -16,18 +16,18 @@ COUNTDOWN_SECONDS = 2
 # 2. INITIAL SIGN-WORD LIST (you can add more later)
 # ----------------------------------------------------------------------
 DEFAULT_SIGNS = [
-    'uy', 'maktab', 'ko‘cha', 'eshik', 'stol', 'stul', 'karavot', 'mashina', 'poezd',
-    'metro', 'kema', 'ko‘prik', 'yomg‘ir', 'qor', 'shamol', 'qish', 'bahor', 'kun',
+    'uy', 'maktab', "ko'cha", 'eshik', 'stol', 'stul', 'karavot', 'mashina', 'poezd',
+    'metro', 'kema', "ko'prik", "yomg'ir", 'qor', 'shamol', 'qish', 'bahor', 'kun',
     'iltimos', 'assalomu_alaykum', 'kechirasiz', 'yaxshi', 'tez', 'birga', 'katta',
-    'kichik', 'yangi', 'mehribon', 'ovqat_tayyorlash', 'yozish', 'yordam_berish', 'o‘ynash', 'sayr_qilish',
-    'qidirish', 'yo‘qotish', 'jismoniy_tarbiya', 'turish', 'ketish', 'olib_kelish', 'ochish',
-    'yopish', 'yorug‘', 'qorong‘i', 'toza', 'televizor', 'to‘la', 'bo‘sh', 'oxiri',
+    'kichik', 'yangi', 'mehribon', 'ovqat_tayyorlash', 'yozish', 'yordam_berish', "o'ynash", 'sayr_qilish',
+    'qidirish', "yo'qotish", 'jismoniy_tarbiya', 'turish', 'ketish', 'olib_kelish', 'ochish',
+    'yopish', "yorug'", "qorong'i", 'toza', 'televizor', "to'la", "bo'sh", 'oxiri',
     'boshlanishi', 'kech', 'tez_orada', 'restoran', 'zavod', 'cherkov', 'bozor', 'shokolad',
-    'mehmonxona', 'kitob', 'qog‘oz', 'parda', 'kiyim', 'oyoq_kiyim', 'paypoq', 'qo‘lqop',
+    'mehmonxona', 'kitob', "qog'oz", 'parda', 'kiyim', 'oyoq_kiyim', 'paypoq', "qo'lqop",
     'bosh_kiyim', 'bank_kartasi', 'non', 'likopcha', 'muzlatkich', 'internet', 'musiqa',
-    'javob', 'yer', 'o‘t', 'tosh', 'it', 'mushuk', 'sigir', 'ot', 'qo‘y',
-    'cho‘chqa', 'kartoshka', 'sabzi', 'karam', 'pomidor', 'bodring', 'sarimsoq', 'qo‘ziqorin',
-    'sariyog‘', 'stakan', 'futbol', 'o‘qiyman', 'o‘simlik_yog‘i', 'sovun', 'yostiq',
+    'javob', 'yer', "o't", 'tosh', 'it', 'mushuk', 'sigir', 'ot', "qo'y",
+    "cho'chqa", 'kartoshka', 'sabzi', 'karam', 'pomidor', 'bodring', 'sarimsoq', "qo'ziqorin",
+    "sariyog'", 'stakan', 'futbol', "o'qiyman", "o'simlik_yog'i", 'sovun', 'yostiq',
     'quyon', 'tozalayman', 'topaman', 'kir', 'ryukzak'
 ]
 
