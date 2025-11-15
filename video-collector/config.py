@@ -22,7 +22,7 @@ DEFAULT_SIGNS = [
     'kichik', 'yangi', 'mehribon', 'ovqat_tayyorlash', 'yozish', 'yordam_berish', "o'ynash", 'sayr_qilish',
     'qidirish', "yo'qotish", 'jismoniy_tarbiya', 'turish', 'ketish', 'olib_kelish', 'ochish',
     'yopish', "yorug'", "qorong'i", 'toza', 'televizor', "to'la", "bo'sh", 'oxiri',
-    'boshlanishi', 'kech', 'tez_orada', 'restoran', 'zavod', 'cherkov', 'bozor', 'shokolad',
+    'boshlanishi', 'kech', 'tez_orada', 'restoran', 'zavod', 'masjid', 'bozor', 'shokolad',
     'mehmonxona', 'kitob', "qog'oz", 'parda', 'kiyim', 'oyoq_kiyim', 'paypoq', "qo'lqop",
     'bosh_kiyim', 'bank_kartasi', 'non', 'likopcha', 'muzlatkich', 'internet', 'musiqa',
     'javob', 'yer', "o't", 'tosh', 'it', 'mushuk', 'sigir', 'ot', "qo'y",
